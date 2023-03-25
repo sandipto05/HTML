@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VK Web Design</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            padding: 0px;
+            border: 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: rgb(60, 60, 66);
+            padding: 12px;
+            text-align: left;
+            font-size: 30px;
+            height: 90px;
+        }
+        .lis{
+            display: inline-flex;
+            list-style: none;
+            padding: 1%;
+            text-indent: 40px;
+            font-size: 17px;
+            float: right;
+        }
+        .text-block {
+            position: absolute;
+            color: white;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .leftdiv
+         {
+            float: left;
+            color: black;
+            background-color: lightgray;
+            width: 33%;
+            height: 300px;
+            text-align: center;
+         }
+        .middlediv
+        {
+           float: left;
+           color: black;
+           background-color: lightgrey;
+           width: 33%;
+           height: 300px;
+           text-align: center;
+        }
+        .rightdiv
+        {
+           float: left;
+           color: black;
+           background-color: lightgrey;
+           width: 34%;
+           height: 300px;
+           text-align: center;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            background-color: rgb(230, 118, 74);
+            padding: 10px;
+            text-align: center;
+            color: white;
+            height: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div style="display: inline-flex; font-size: 22px; margin-left: 30px;">
+                <h2 style="color: rgb(230, 118, 74);">VK </h2>&nbsp;&nbsp;
+                <h2 style="color: white"> Web Design</h2>
+            </div>
+            <div style="display: inline-flex; font-size: 20px;">
+                <ul class="lis">
+                    <li><a href="#"style="color: rgb(230, 118, 74); text-decoration: none; align-self:center; margin-left: 760px;">Home</a>
+                    </li>
+                    <li><a href="#" style="color: white; text-decoration: none;">About</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Services</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>    
+    
+    <div style="position: relative;">
+        <img src="night_city.jpg" alt="Night City" width="100%" height="400px">
+        <div class="text-block">
+            <h1><b>Affordable Professional Websites</b></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+    </div>  
+
+    <header style="background-color: rgb(46, 44, 44);
+            padding: 10px;
+            width: 100%;
+
+            font-size: 20px;
+            color: white;
+            display: inline-flex;">
+        <div>
+        <h2>Subscribe To Our Newsletter</h2>
+        </div>
+        <div style="float: right; align-self:center; margin-left: 690px; border: none; border-radius: 0%;">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Enter Your Email" name="Email">
+                <button type="submit" style="background-color: rgb(230, 118, 74); color: white;">Sign In</button>
+            </form>
+        </div>
+    </header>
+
+    <section>
+        <div class="leftdiv">
+            <img src="ss.png" alt="Symbol">
+            <h3><b>HTML5 Markup</b></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</p>
+        </div>
+        <div class="middlediv">
+            <img src="ss.png" alt="Symbol">
+            <h3><b>CSS Styling</b></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</p>
+        </div>
+        <div class="rightdiv">
+            <img src="ss.png" alt="Symbol">
+            <h3><b>JavaScript</b></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Copyright 2023. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
